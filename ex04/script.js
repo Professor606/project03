@@ -3,6 +3,12 @@ const taskInput = document.getElementById("task-input");
 const taskList = document.getElementById("task-list");
 const taskCount = document.getElementById("task-count");
 
+taskInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        taskForm.requestSubmit();
+    }
+});
+
 taskForm.addEventListener("submit", (event) => {
 	event.preventDefault();
 
