@@ -1,0 +1,11 @@
+body {
+	font-family: sans-serif;
+}
+
+li {
+	cursor: pointer;
+}
+
+.completed {
+	text-decoration: line-through;
+}
